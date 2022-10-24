@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "793186849867",
+    "project_id": "estados-7c7da",
+    "storage_bucket": "estados-7c7da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:793186849867:android:a50d8dd09a50ba6554a9ce",
+        "android_client_info": {
+          "package_name": "com.estados"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "793186849867-o7jjrbgepovj0b11ppi6b80if4q5opqu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgwkyQhCEY-FSdSB6fkkPyBFf1iU7aJdQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "793186849867-o7jjrbgepovj0b11ppi6b80if4q5opqu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
