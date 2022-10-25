@@ -6,6 +6,33 @@
     <string name="text_register">Registrarse</string>
     <string name="text_login">Iniciar sesión</string>
     <string name="text_outer">INICIO DE SESIÓN</string>
+
+    <string name="states_title">ESTADOS</string>
+
+
+    <string name="state_name">Nombre del estado</string>
+    <string name="state_capital">Capital del estado</string>
+    <string name="state_population">Población del estado</string>
+    <string name="has_coast">¿El estado tiene costa?</string>
+    <string name="add_state">AGREGAR ESTADO</string>
+    <string name="add_success">Estado agregado correctamente</string>
+    <string name="add_error">Error al agregar el estado</string>
+
+    <string name="update_state">ACTUALIZAR ESTADO</string>
+    <string name="update_success">Estado actualizado correctamente</string>
+    <string name="update_error">Error al actualizar el estado</string>
+
+    <string name="msg_delete_state">ELIMINAR ESTADO</string>
+    <string name="msg_deleted_state">Estado elimindao</string>
+    <string name="msg_ask_to_delete">¿Seguro desea eliminar el estado?</string>
+
+    <string name="msg_si">Si</string>
+    <string name="msg_no">No</string>
+
+    <string name="display_state_capital">Capital: </string>
+    <string name="display_state_population">Población: </string>
+    <string name="display_has_coast">¿El tiene costa? </string>
+
     <string name="title_activity_main">MainActivity</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
@@ -15,4 +42,6 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

@@ -29,9 +29,8 @@ private lateinit var binding: ActivityCentralBinding
         appBarConfiguration = AppBarConfiguration(navController.graph)
         setupActionBarWithNavController(navController, appBarConfiguration)
 
-        binding.fab.setOnClickListener { view ->
-            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                    .setAction("Action", null).show()
+        binding.addStateFavButton.setOnClickListener {
+            navController.navigate(R.id.action_EstadosFragment_to_AddEstadoFragment)
         }
 
         binding.signOutButton.setOnClickListener {signOut()}

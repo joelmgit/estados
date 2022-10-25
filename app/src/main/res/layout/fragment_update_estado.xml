@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="25dp"
+    tools:context=".UpdateEstado">
+
+    <TextView
+        android:id="@+id/updateStateTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="45dp"
+        android:text="@string/update_state"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/updateStateName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/state_name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/updateStateCapital"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/state_capital"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/updateStatePopulation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/state_population"
+        android:inputType="number" />
+
+    <CheckBox
+        android:id="@+id/updateHasCoast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/has_coast" />
+
+    <Button
+        android:id="@+id/updateStateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/update_state" />
+
+    <Button
+        android:id="@+id/deleteStateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/msg_delete_state" />
+
+</LinearLayout>

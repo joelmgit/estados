@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="25dp"
+    tools:context=".ui.AddEstadoFragment">
+
+    <TextView
+        android:id="@+id/addStateTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="45dp"
+        android:text="@string/add_state"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/addStateName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/state_name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/addStateCapital"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/state_capital"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/addStatePopulation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/state_population"
+        android:inputType="number" />
+
+    <CheckBox
+        android:id="@+id/addHasCoast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/has_coast" />
+
+    <Button
+        android:id="@+id/addStateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_state" />
+</LinearLayout>
